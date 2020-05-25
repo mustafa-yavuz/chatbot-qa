@@ -2,7 +2,7 @@
 This is an implementation of a chatbot that can answer questions based on a "story" given to the bot.
 
 ### Dataset
-* [Babi](https://research.fb.com/downloads/babi/) dataset released by facebook research.
+* [Babi](https://research.fb.com/downloads/babi/) dataset released by facebook research. One of 20 tasks for testing text understanding and reasoning in the bAbI project.
 * A particular subset of the dataset which has stories, questions and answers is used as data.
 * Training set(10000) and test set(1000) are seperated and each sample is in a tuple format (story,question,answer)
 
@@ -20,5 +20,6 @@ This is an implementation of a chatbot that can answer questions based on a "sto
  
 **Full model** : Using LSTMs with multiple layers on top of sub-components. Network produces a probabilty for every single word in the vocabulary. In this implementation, there will be high probablity on either yes or no.
 
+Code accompanying the End-To-End Memory Networks paper: https://arxiv.org/pdf/1503.08895.pdf
 
 
