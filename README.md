@@ -9,10 +9,15 @@ This is an implementation of a chatbot that can answer questions based on a "sto
 ### Model
 <img src='https://i.imgur.com/0YVe2dY.png' title='Poster' width='' />
 
-The model takes a discrete set of inputs **x1, ..., xn** that are to be stored in the memory, a query **q**, and
-outputs an answer **a**. Each of the **x**, **q**, and **a** contains symbols coming from a dictionary with **V**
-words. The model writes all x to the memory up to a fixed buffer size, and then finds a continuous
-representation for the **x** and **q**.
+**a)** Single Layer case which implements a single memory hop operation
+**b)** Multiple Layer implementation (using RNNs) with multiple hops in memory
+
+**3 main sub-components of network**:
+* Input Memory Representation 
+* Output Memory Representation
+* Generating Final Prediction
+ 
+**Full model** : Using LSTMs with multiple layers on top of sub-components. Network produces a probabilty for every single word in the vocabulary. In this implementation, there will be high probablity on either yes or no.
 
 
 
