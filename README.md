@@ -2,8 +2,8 @@
 This is an implementation of a chatbot that can answer questions based on a "story" given to the bot.
 
 ### Dataset
-* [Babi](https://research.fb.com/downloads/babi/) dataset released by facebook research. One of 20 tasks for testing text understanding and reasoning in the bAbI project.
-* A particular subset of the dataset which has stories, questions and answers is used as data.
+* [Babi](https://research.fb.com/downloads/babi/) dataset released by facebook research. 
+* A particular subset of the dataset which has stories, questions and answers is used as data (One of 20 tasks in the bAbI project).
 * Training set(10000) and test set(1000) are seperated and each sample is in a tuple format (story,question,answer)
 
 ### Model
