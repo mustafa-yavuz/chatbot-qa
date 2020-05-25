@@ -10,6 +10,7 @@ This is an implementation of a chatbot that can answer questions based on a "sto
 <img src='https://i.imgur.com/0YVe2dY.png' title='Poster' width='' />
 
 **a)** Single Layer case which implements a single memory hop operation
+
 **b)** Multiple Layer implementation (using RNNs) with multiple hops in memory
 
 **3 main sub-components of network**:
