@@ -22,4 +22,6 @@ This is an implementation of a chatbot that can answer questions based on a "sto
 
 Code accompanying the End-To-End Memory Networks paper: https://arxiv.org/pdf/1503.08895.pdf
 
+For further understanding : https://www.youtube.com/watch?v=ZwvWY9Yy76Q
+
 
